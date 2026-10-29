@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catatan Keuangan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Catatan Keuangan</h1>
+
+  <div class="ringkasan">
+    <p>Saldo: Rp 0</p>
+    <p>Pemasukan: Rp 0</p>
+    <p>Pengeluaran: Rp 0</p>
+  </div>
+
+  <h2>Tambah Transaksi</h2>
+  <input type="text" placeholder="Keterangan">
+  <input type="number" placeholder="Jumlah">
+  <select>
+    <option>Pemasukan</option>
+    <option>Pengeluaran</option>
+  </select>
+  <button>Tambah</button>
+
+  <h2>Riwayat</h2>
+  <ul id="daftar"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
